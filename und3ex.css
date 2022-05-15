@@ -1,0 +1,24 @@
+* {
+  background-color: aliceblue;
+}
+.one {
+  color: blue;
+  font: 700;
+}
+.two {
+  background-color: aquamarine;
+  border: 0px;
+  width: fit-content;
+}
+#display {
+  align-items: center;
+  justify-content: end;
+}
+.four {
+  align-items: center;
+  float: right;
+}
+#displayForm {
+  background-color: aqua;
+  float: right;
+}
