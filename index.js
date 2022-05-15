@@ -31,12 +31,12 @@ function scoreLine() {
   if (quiz1 == "" || quiz2 == "" || quiz3 == "" || quiz4 == "" || quiz5 == "") {
     alert("please Answer All the questions");
   }
-  var finalScore = result * 33;
-  if (finalScore >= 70) {
+  var finalScore = result * 20;
+  if (finalScore >= 80) {
     displayForm.innerHTML = "your score is" + finalScore + "%" + "excelent";
-  } else if (finalScore >= 33 && finalScore < 70) {
+  } else if (finalScore >= 20 && finalScore < 80) {
     displayForm.innerHTML = "your score is" + finalScore + "%" + "fairly done";
-  } else if (finalScore >= 0 && finalScore < 33) {
+  } else if (finalScore >= 0 && finalScore < 20) {
     displayForm.innerHTML = "your score is" + finalScore + "%" + "poor score!";
   }
 }
