@@ -1,4 +1,4 @@
-function yourScore() {
+function scoreLine() {
   // content here
 
   var quiz1 = document.myForm.q1.value;
