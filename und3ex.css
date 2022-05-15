@@ -5,6 +5,9 @@
 .one {
   color: blue;
   font: 700;
+  width: 100px;
+  font-size: larger;
+  align-items: center;
 }
 .two {
   background-color: aquamarine;

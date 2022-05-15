@@ -29,7 +29,7 @@ function scoreLine() {
   }
 
   if (quiz1 == "" || quiz2 == "" || quiz3 == "" || quiz4 == "" || quiz5 == "") {
-    alert("please Answer All the questions");
+    alert("please Answer All the questions provided below!");
   }
   var finalScore = result * 20;
   if (finalScore >= 80) {
