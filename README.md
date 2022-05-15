@@ -1,8 +1,15 @@
-# ip3
+# Ip3
 My README.MD file
 
+This is a quiz board project 
+
+INSTALLATION
 one need to have internet
 
  And also device.
  
-This is my web page for the quiz board .
+
+Author: festus971 
+
+License.
+Permission is hereby granted , free of charge to any person obtaining a copy of this software for any documentation. 
