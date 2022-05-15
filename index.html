@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="und3ex.css" />
+    <title>quiz board</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <div class="one">Testing knowledge</div>
+        <p>Note each question has one mark</p>
+        <h1>quiz board</h1>
+        <div>
+          <form action="" name="myForm">
+            <p class="two">q1.What is var in javascript?</p>
+            <br />
+            <input type="radio" name="q1" value="A" /> it has fuction scope
+            <br />
+            <input type="radio" name="q1" value="B" />three <br />
+            <input type="radio" name="q1" value="C" />it has block scope <br />
+            <input type="radio" name="q1" value="D" />mice <br />
+
+            <p class="two">q2.give one property of let</p>
+            <br />
+            <input type="radio" name="q2" value="A" /> it has block scope<br />
+            <input type="radio" name="q2" value="B" /> it has a function
+            scope<br />
+            <input type="radio" name="q2" value="C" /> variables will be
+            hoisted<br />
+            <input type="radio" name="q2" value="D" /> white<br />
+
+            <p class="two">q3. Why do you need modules in javascript?</p>
+            <br />
+            <input type="radio" name="q3" value="A" /> decoration<br />
+            <input type="radio" name="q3" value="B" /> to appleal the user<br />
+            <input type="radio" name="q3" value="C" /> maintainability<br />
+            <input type="radio" name="q3" value="D" /> for scope<br />
+
+            <p class="two">q4. Whats the need of scope?</p>
+            <br />
+            <input type="radio" name="q4" value="A" /> Determines the visibility
+            of variables <br />
+            <input type="radio" name="q4" value="B" /> maintainability<br />
+            <input type="radio" name="q4" value="C" /> namespacing<br />
+            <input type="radio" name="q4" value="D" /> for enjoyment
+            purposes.<br />
+
+            <p class="two">q5.Give the state of promise in javascript</p>
+            <br />
+            <input type="radio" name="q5" value="A" />none
+            <br />
+            <input type="radio" name="q5" value="B" />Tcorrect
+            <br />
+            <input type="radio" name="q5" value="C" />rejected
+            <br />
+
+            <input type="button" value="submit" onclick="yourScore()" />
+          </form>
+        </div>
+      </div>
+
+      <div id="display">
+        <p id="displayForm">our display goes here</p>
+        <button onclick="myComments">
+          <p class="four">click here to check your comments</p>
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
