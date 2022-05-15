@@ -33,11 +33,15 @@ function scoreLine() {
   }
   var finalScore = result * 20;
   if (finalScore >= 80) {
-    displayForm.innerHTML = "your score is" + finalScore + "%" + "excelent";
+    displayForm.innerHTML = "your score is" + finalScore + "%" + "Excelent";
   } else if (finalScore >= 20 && finalScore < 80) {
-    displayForm.innerHTML = "your score is" + finalScore + "%" + "fairly done";
+    displayForm.innerHTML = "your score is" + finalScore + "%" + "Fairly Done";
   } else if (finalScore >= 0 && finalScore < 20) {
-    displayForm.innerHTML = "your score is" + finalScore + "%" + "poor score!";
+    displayForm.innerHTML =
+      "your score is" +
+      finalScore +
+      "%" +
+      "Poor Score! Needed To Retake The Paper";
   }
 }
 function achievedMarks() {
