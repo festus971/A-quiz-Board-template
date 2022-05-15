@@ -40,14 +40,14 @@ function scoreLine() {
     displayForm.innerHTML = "your score is" + finalScore + "%" + "poor score!";
   }
 }
-function myComments() {
-  myComments = finalScore;
+function achievedMarks() {
+  achievedMarks = finalScore;
   var displayComments = document.getElementById("displayComments");
 
   // displayComments.innerHTML="Good work"
-  if (myComments >= 60) {
+  if (achievedMarks >= 60) {
     displayComments.innerHTML = "Good work";
-  } else if (myComments >= 0 && myComments < 60) {
+  } else if (achievedMarks >= 0 && achievedMarks < 60) {
     displayComments.innerHTML = "nice work";
   }
 }
