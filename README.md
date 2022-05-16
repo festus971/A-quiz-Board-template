@@ -1,7 +1,20 @@
-# Ip3
-My README.MD file
+#QUIZ BOARD
+##BY Festus KIprop
+ ## Table of Content
+ - [Description](#description)
+ - [Features](#features)
+ - [Behaviour Driven Development](#Behaviour-Driven-Development)
+ - [Requirements](#requirements)
+ - [Installation Process](#installation-Process)
+ - [Live Link](#Live-Link)
+ - [Technology  Used](#technology-Used)
+ - [Licence](#licence)
+ - [Authors Info](#Authors-Info)
 
+
+##Descrption
 This is a quiz board project 
+##Features
 
 INSTALLATION
 one need to have internet
